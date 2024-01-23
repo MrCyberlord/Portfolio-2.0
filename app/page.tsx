@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Navbar from '../components/main/Navbar'
-import Hero from "../components/main/Hero";
 import About from "@/components/main/About";
+import Contact from "@/components/main/Contact";
+import Hero from "@/components/main/Hero";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <section id="hero" className="snap-center">
         <Hero />
         <About />
+        <Contact />
       </section>
       
       </div>

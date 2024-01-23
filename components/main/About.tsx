@@ -19,7 +19,7 @@ const About = () => {
         <motion.div 
           variants={slideInFromRight(1)}
 
-          className='font-semibold text-[30px] text-gray-500 tracking-[3px]'>
+          className='font-semibold text-[30px] text-gray-50 tracking-[3px] text-center'>
             About Me
           </motion.div>
        
@@ -38,7 +38,7 @@ const About = () => {
             I have an Engineering degree in Electronics and Telecommunications Engineering. 
             I have over 2 years of experience in software development. 
             I believe in writing 
-            <span className='text-transparent bg-clip-text font-bold font-mono  text-[#D98D00] ] '>
+            <span className='text-transparent bg-clip-text font-bold font-mono  text-orange-500 ] '>
               {" "} 
               &lt;clean and efficient code/&gt;</span>.
              Apart from technology, I am into fitness and love watching sci-fi movies & series.
