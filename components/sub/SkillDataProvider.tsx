@@ -13,26 +13,19 @@ interface Props {
   index: number,
 }
 
-const SkillDataProvider = ({src, width, height, name, index} : Props) => {
-  const {ref, inView} = useInView({
-    triggerOnce: true
-  })
+const directionBottom: boolean = true
 
-  const imageVariants = {
-    hidden: {opacity: 0},
-    visible: {opacity: 1}
-  }
+const SkillDataProvider = ({src, width, height, name, index} : Props) => {
 
   const animationDelay = 0.1
 
   return (
     <motion.div
-    ref={ref}
-    initial='hidden'
-    variants={imageVariants}
-    animate={inView ? 'visible' : 'hidden'}
-    custom={index}
-    transition={{delay: index * animationDelay}}
+    initial={{
+      y: directionBottom ? 100 : -100,
+      opacity: 0}}
+      transition={{delay: index * animationDelay}}
+    whileInView={{opacity:1, y: 0}}
     className='text-center'
     >
 
@@ -40,7 +33,7 @@ const SkillDataProvider = ({src, width, height, name, index} : Props) => {
       width={width} 
       height={height}
       alt='skillImage'/>
-      <div className='mt-2 text-gray-500'>{name}</div>
+      <div className='pt-1 text-gray-500'>{name}</div>
       
     </motion.div>
   )

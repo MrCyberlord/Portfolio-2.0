@@ -17,7 +17,7 @@ export default function Hero({}: Props) {
         delaySpeed: 2000,
     })
   return (
-    <div className='h-screen flex flex-col space-y-14 items-center justify-center text-center overflow-hidden'>
+    <div className='h-screen flex flex-col space-y-14 items-center justify-center text-center'>
         <BackgroundCircles />
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[12px]'>Software Engineer</h2>

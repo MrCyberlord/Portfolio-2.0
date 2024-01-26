@@ -11,56 +11,63 @@ const Contact = () => {
   const phoneNumber = "+91 8087491938";
 
   return (
-    <div className='h-screen'>
-        <div className='pt-28 pb-20 text-center'>
-            <h3 className='top-24 uppercase tracking-[21px] text-gray-300 text-[30px] pb-10 ' >
+    <div className='h-full w-screen'>
+        <div className=' py-8 text-center'>
+            <h3 className='uppercase tracking-[21px] text-gray-300 text-[32px] pt-10 pb-12' >
             Contact
             </h3>
 
-            <h3 className=' text-orange-500 text-[40px] ml-28'>
-            Let's get in touch! I, I'm just a click away...<Cursor cursorColor='orange-500' />
+            <h3 className=' text-orange-500 text-[38px] px-28 pb-10'>
+            If you're in search of a problem solver who's eager to embrace new technologies and create innovative products, 
+            I'm just a click away.<Cursor cursorColor='orange-500' />
             </h3>
             
         </div>
 
-        <div className='flex flex-wrap justify-evenly mx-48' >    
-        {/* justify-between  */}
+        <div className='flex flex-wrap justify-evenly pb-16' >    
 
-        <a href={`mailto:${email}`}
-        className='text-blue-700 '
-        >
-          <FontAwesomeIcon className='h-44 w-44' icon={faSquareEnvelope} />
-        </a>
-        
-        <a
-          href="https://twitter.com/MrCyberlord"
-          target="_blank"
-          rel="noopener noreferrer"
+          <a href={`mailto:${email}`}
           className='text-blue-700 '
-        >
-          <FontAwesomeIcon className='h-44 w-44' icon={faSquareXTwitter} />
-        </a>
+          >
+            <FontAwesomeIcon className='h-40 w-40 hover:text-sky-100' icon={faSquareEnvelope} />
+          </a>
+          
+          <a
+            href="https://twitter.com/MrCyberlord"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='text-blue-700 '
+          >
+            <FontAwesomeIcon className='h-40 w-40' icon={faSquareXTwitter} />
+          </a>
 
-        <a
-          href="https://www.linkedin.com/in/theamanjain/"
-          target="_blank"
-          rel="noopener noreferrer"
+          <a
+            href="https://www.linkedin.com/in/theamanjain/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='text-blue-700'
+          >
+            <FontAwesomeIcon className='h-40 w-40' icon={faLinkedin} />
+          </a>
+
+          <a href={`tel:${phoneNumber}`}
           className='text-blue-700'
-        >
-          <FontAwesomeIcon className='h-44 w-44' icon={faLinkedin} />
-        </a>
-
-        <a href={`tel:${phoneNumber}`}
-        className='text-blue-700'
-        >
-          <FontAwesomeIcon className='h-44 w-44' icon={faSquarePhone} />
-        </a>
+          >
+            <FontAwesomeIcon className='h-40 w-40' icon={faSquarePhone} />
+          </a>
         
         </div>
       
+
+      <div className='w-screen h-[55px] mb-0 bg-[#e2e9e417] px-10 flex justify-around items-center'>
+        <div>Made with Next.js</div>
+        <div>Copyright © 2024 Aman</div>
+      </div>
       
     </div>
   )
 }
 
 export default Contact
+
+// bg-[#dfdde917] 
