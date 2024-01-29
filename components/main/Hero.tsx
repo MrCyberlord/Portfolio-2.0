@@ -17,11 +17,12 @@ export default function Hero({}: Props) {
         delaySpeed: 2000,
     })
   return (
-    <div className='h-screen flex flex-col space-y-14 items-center justify-center text-center'>
+    <div className='h-screen flex flex-col items-center justify-center text-center
+                    sm:space-y-14'>
         <BackgroundCircles />
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[12px]'>Software Engineer</h2>
-            <h1 className='text-5xl '>
+            <h1 className='text-2xl sm:text-5xl'>
                 <span className=''>{text}</span>
                 <Cursor cursorColor='#F7AB0A' />
             </h1>

@@ -20,12 +20,16 @@ function BackgroundCircles({}: Props) {
         }}
     
         className='relative flex justify-center items-center'>
-        <div className='absolute border border-[#333333] rounded-full h-[200px] w-[200px] mt-52 
-        animate-ping'/>
-        <div className='rounded-full border border-[#333333] h-[300px] w-[300px] absolute mt-52'/>
-        <div className='rounded-full border border-[#333333] h-[450px] w-[450px] absolute mt-52'/>
-        <div className='rounded-full border border-[#F7AB0A] opacity-20 h-[600px] w-[600px] absolute mt-52 animate-pulse'/>
-        <div className='rounded-full border border-[#333333] h-[750px] w-[750px] absolute mt-52'/>
+        <div className='absolute border border-[#333333] rounded-full h-[50px] w-[50px] mt-28 animate-ping
+        sm:h-[200px] sm:w-[200px] sm:mt-52'/>
+        <div className='rounded-full border border-[#333333] h-[100px] w-[100px] absolute mt-28 
+        sm:h-[300px] sm:w-[300px] sm:mt-52'/>
+        <div className='rounded-full border border-[#333333] h-[175px] w-[175px] absolute mt-28
+        sm:h-[450px] sm:w-[450px] sm:mt-52'/>
+        <div className='rounded-full border border-[#F7AB0A] opacity-20 h-[250px] w-[250px] absolute mt-28 animate-pulse
+        sm:h-[600px] sm:w-[600px] sm:mt-52'/>
+        <div className='rounded-full border border-[#333333] h-[325px] w-[325px] absolute mt-28
+        sm:h-[750px] sm:w-[750px] sm:mt-52'/>
     </motion.div>
   )
 }

@@ -2,7 +2,6 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
 import Image from 'next/image'
 
 interface Props {
@@ -28,12 +27,15 @@ const SkillDataProvider = ({src, width, height, name, index} : Props) => {
     whileInView={{opacity:1, y: 0}}
     className='text-center'
     >
-
+      <div className='h-[52px] w-[52px] sm:h-24 sm:w-24'>
       <Image src={src} 
       width={width} 
       height={height}
       alt='skillImage'/>
-      <div className='pt-1 text-gray-500'>{name}</div>
+      </div>
+
+      <div className='pt-1 text-gray-500 text-[10px] font-semibold
+      sm:text-base'>{name}</div>
       
     </motion.div>
   )

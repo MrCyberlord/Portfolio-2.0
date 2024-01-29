@@ -12,32 +12,40 @@ const About = () => {
   return (
      
       <section 
-        className='h-screen w-screen flex flex-col justify-center px-36 pt-10 overflow-hidden'>
+        className='h-screen w-screen flex flex-col justify-center px-7 pt-14 overflow-hidden
+        
+        sm:px-36'>
 
       <SkewBackground/>
         <motion.div 
+        
           initial={{
+            x: directionRight ? 200 : -200,
+            opacity: 0}}
+            transition={{duration: 1}}
+          whileInView={{opacity:1, x: 0}}
+          
+          className='font-semibold uppercase tracking-[15px] text-gray-500 text-2xl text-center
+          
+          sm:tracking-[21px] sm:text-[33px]'>
+            About Me
+          </motion.div>
+       
+        <motion.div 
+           
+           initial={{
             x: directionLeft ? -200 : 200,
             opacity: 0,
           }}
             transition={{duration: 1}}
           whileInView={{opacity:1, x: 0}}
-          
-          className='font-semibold uppercase tracking-[21px] text-gray-500 text-[32px] text-center'>
-            About Me
-          </motion.div>
-       
-        <motion.div 
-           initial={{
-            x: directionRight ? 200 : -200,
-            opacity: 0}}
-            transition={{duration: 1}}
-          whileInView={{opacity:1, x: 0}}
         
-          className='font-sans text-[30px] pt-10 ' 
+          className='font-sans text-[20px] pt-16 leading-6
+          sm:text-[30px] sm:leading-10' 
         >
           <span>
-            I love creating awesome user interfaces that are engaging and aesthetically pleasing. 
+            Hi! Aman here. I am a Software Engineer.
+            I love creating user-friendly applications that are engaging and responsive. 
             I am enthusiastic about transforming ideas into 
           </span>
             <span className='text-transparent bg-clip-text font-bold  bg-gradient-to-r from-purple-600 to to-blue-600'>

@@ -7,18 +7,27 @@ body {
 }
 
 .navbarbutton {
-  @apply px-5 py-2 border border-[#242424] rounded-full uppercase text-base
-  tracking-wider text-gray-300 transition-all hover:border-orange-400 hover:text-orange-400
+  @apply w-screen px-2 py-4 border-2 border-[#242424] rounded-md bg-blue-700 uppercase text-lg font-bold
+  tracking-wider text-gray-300 transition-all 
+
+  sm:px-5 sm:py-2 sm:text-base sm:font-semibold sm:rounded-full sm:w-auto sm:bg-transparent 
+  sm:hover:border-orange-500 sm:hover:text-orange-500
+}
+
+.projectbutton {
+  @apply px-2 border-2 border-x-4 border-blue-700 bg-[#323131] rounded-md 
+  tracking-wider text-gray-400 transition-all hover:text-blue-500
 }
 
 .neon-text {
-  color: #063474;
-  text-shadow: 0 0 1px #ffffff, 0 0 3px #04234f, 0 0 8px #323335, 0 0 12px #17054f;
+  color: #ced6e1;
+  text-shadow: 0 0 1px #699fd2, 0 0 3px #3123cc, 0 0 8px #5d729f, 0 0 12px #96d8d8;
 }
 
 
 ::-webkit-scrollbar {
   width: 10px;
+  background-color: #06127a;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -27,7 +36,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4b58d3;
+  background: #b6b6ca;
+}
+
+.custom-shadow {
+  box-shadow: 0 10px 25px -5px rgb(65, 73, 231), 0 20px 50px -10px rgba(234, 234, 242, 0.1);
 }
 
 

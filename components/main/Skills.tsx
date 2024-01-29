@@ -9,7 +9,8 @@ const directionTop: boolean = true
 
 const Skills = () => {
   return (
-    <section className='h-full w-screen pt-32 pb-56'>
+    <section className='h-full w-screen pt-32 pb-56
+    sm:pt-28'>
       <div>
         <motion.div 
         initial={{
@@ -18,11 +19,16 @@ const Skills = () => {
           transition={{duration: 1}}
         whileInView={{opacity:1, y: 0}}
 
-        className='font-semibold uppercase tracking-[21px] text-gray-500 text-[33px] text-center'>
+        className='font-semibold uppercase tracking-[14px] text-gray-500 text-[26px] text-center
+        
+        sm:tracking-[21px] sm:text-[33px]'>
           Skills
         </motion.div>
       </div>
-      <div className='flex flex-row justify-center items-center flex-wrap gap-x-9 gap-y-5 px-72 pt-14'>
+      <div className='flex flex-row justify-center items-center flex-wrap gap-x-10 gap-y-2 px-10 pt-14
+      
+      sm:px-64 sm:pt-10 sm:gap-x-9 sm:gap-y-5'
+      >
         { skillData.map((skill, index) => (
           <SkillDataProvider 
           key={index}
