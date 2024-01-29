@@ -84,5 +84,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-// bg-[#dfdde917] 
