@@ -29,8 +29,8 @@ const Contact = () => {
 
             <h3 className=' text-orange-500 text-[23px] px-5 pb-12
             sm:text-[38px] sm:px-44 sm:pb-10'>
-            If you're looking for someone passionate about turning ideas into reality with clean & efficient code, 
-            Let's connect:<Cursor cursorColor='orange-500' />
+            If you&apos;re looking for someone passionate about turning ideas into reality with clean &amp; efficient code, 
+            Let&apos;s connect:<Cursor cursorColor='orange-500' />
             </h3>
             
         </div>
