@@ -10,7 +10,7 @@ body {
   @apply w-screen px-2 py-4 border-2 border-[#242424] rounded-md bg-blue-700 uppercase text-lg font-bold
   tracking-wider text-gray-300 transition-all 
 
-  sm:px-5 sm:py-2 sm:text-base sm:font-semibold sm:rounded-full sm:w-auto sm:bg-transparent 
+  sm:px-4 sm:py-2 sm:text-[20px] sm:font-semibold sm:rounded-full sm:w-auto sm:bg-transparent 
   sm:hover:border-orange-500 sm:hover:text-orange-500
 }
 

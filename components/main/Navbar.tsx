@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='w-full h-[70px] fixed top-0 shadow-[#2A0E61]/50
      bg-[#03001417] backdrop-blur-md flex justify-between items-center z-50 
      
-      sm:h-[70px] sm:px-20'>     
+      sm:h-[75px] sm:px-[60px]'>     
 
       <div>
         <h1 className='neon-text font-semibold text-lg px-5 sm:text-xl'>Made with Next.js</h1>
