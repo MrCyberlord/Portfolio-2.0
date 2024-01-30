@@ -16,16 +16,16 @@ const Navbar = () => {
   }
 
   return (
-    <div className='w-full h-[60px] fixed top-0 shadow-[#2A0E61]/50
+    <div className='w-full h-[70px] fixed top-0 shadow-[#2A0E61]/50
      bg-[#03001417] backdrop-blur-md flex justify-between items-center z-50 
      
       sm:h-[70px] sm:px-20'>     
 
       <div>
-        <h1 className='neon-text font-semibold text-lg sm:text-xl'>Made with Next.js</h1>
+        <h1 className='neon-text font-semibold text-lg px-5 sm:text-xl'>Made with Next.js</h1>
       </div>
 
-      <div className='text-[40px] text-blue-700 cursor-pointer sm:hidden'>
+      <div className='text-[40px] text-blue-700 cursor-pointer px-5 sm:hidden'>
         <FontAwesomeIcon icon={isOpen ? faTimes : faBars} onClick={toggleMenu} />  
       </div>
 

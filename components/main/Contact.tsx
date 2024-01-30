@@ -21,7 +21,7 @@ const Contact = () => {
 
     className='h-full w-screen'>
         <div className=' py-2'>
-            <h3 className='uppercase tracking-[14px] text-gray-500 text-2xl font-semibold pb-10 text-center
+            <h3 className='uppercase tracking-[14px] text-gray-500 text-2xl font-semibold pb-20 text-center
             
             sm:tracking-[21px] sm:text-4xl' >
             Contact
@@ -35,7 +35,7 @@ const Contact = () => {
             
         </div>
 
-        <div className='flex flex-wrap justify-evenly pb-40
+        <div className='flex flex-wrap justify-evenly pb-32
         sm:pb-20' >    
 
           <a href={`mailto:${email}`}

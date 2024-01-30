@@ -40,7 +40,7 @@ const About = () => {
             transition={{duration: 1}}
           whileInView={{opacity:1, x: 0}}
         
-          className='font-sans text-[20px] pt-16 leading-6
+          className='font-sans text-[23px] pt-16 leading-6
           sm:text-[30px] sm:leading-10' 
         >
           <span>
