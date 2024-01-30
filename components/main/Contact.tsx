@@ -21,7 +21,7 @@ const Contact = () => {
 
     className='h-full w-screen'>
         <div className=' py-2'>
-            <h3 className='uppercase tracking-[14px] text-gray-500 text-2xl font-semibold pb-20 text-center
+            <h3 className='uppercase tracking-[14px] text-gray-500 text-[26px] font-semibold pb-20 text-center
             
             sm:tracking-[21px] sm:text-4xl' >
             Contact
