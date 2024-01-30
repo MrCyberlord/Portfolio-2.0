@@ -108,6 +108,12 @@ export const skillData = [
         height: 80,
     },
     {
+        skillName: "AWS",
+        Image: "/AWSIcon.png",
+        width: 80,
+        height: 80,
+    },
+    {
         skillName: "FramerMotion",
         Image: "/FramerMotion.png",
         width: 80,
