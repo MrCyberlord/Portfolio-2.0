@@ -52,7 +52,7 @@ const About = () => {
               {" "} 
               digital products
               </span>. 
-            I have an Engineering degree in Electronics and Telecommunications Engineering. 
+            I have an Engineering degree in Electronics & Telecommunications Engineering. 
             I have over 2 years of experience in software development. 
             I believe in writing 
             <span className='font-bold font-mono  text-orange-400 ] '>

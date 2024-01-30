@@ -25,7 +25,7 @@ const Navbar = () => {
         <h1 className='neon-text font-semibold text-lg px-5 sm:text-xl'>Made with Next.js</h1>
       </div>
 
-      <div className='text-[40px] text-blue-700 cursor-pointer px-5 sm:hidden'>
+      <div className='text-[45px] text-blue-700 cursor-pointer px-5 sm:hidden'>
         <FontAwesomeIcon icon={isOpen ? faTimes : faBars} onClick={toggleMenu} />  
       </div>
 
