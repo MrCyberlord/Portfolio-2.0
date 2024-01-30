@@ -8,7 +8,7 @@ const directionLeft: boolean = true
 
 const Projects = () => {
   return (
-    <div className='h-full flex flex-col pt-32 pb-60 overflow-hidden
+    <div className='h-full flex flex-col pt-24 pb-60 overflow-hidden
     sm:pt-[145px]'>
       <motion.div 
        initial={{

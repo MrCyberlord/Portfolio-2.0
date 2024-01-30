@@ -20,14 +20,14 @@ const Contact = () => {
     whileInView={{ opacity: 1 }}
 
     className='h-full w-screen'>
-        <div className=' py-2 '>
+        <div className=' py-2'>
             <h3 className='uppercase tracking-[14px] text-gray-500 text-2xl font-semibold pb-10 text-center
             
             sm:tracking-[21px] sm:text-4xl' >
             Contact
             </h3>
 
-            <h3 className=' text-orange-500 text-[23px] px-5 pb-12
+            <h3 className=' text-orange-500 text-[21px] leading-tight px-3 pb-12
             sm:text-[38px] sm:px-44 sm:pb-10'>
             If you&apos;re looking for someone passionate about turning ideas into reality with clean &amp; efficient code, 
             Let&apos;s connect:<Cursor cursorColor='orange-500' />
@@ -35,7 +35,7 @@ const Contact = () => {
             
         </div>
 
-        <div className='flex flex-wrap justify-evenly pb-32
+        <div className='flex flex-wrap justify-evenly pb-40
         sm:pb-20' >    
 
           <a href={`mailto:${email}`}

@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className='w-full h-[60px] fixed top-0 shadow-[#2A0E61]/50
-     bg-[#03001417] backdrop-blur-md px-16 flex justify-between items-center z-50 
+     bg-[#03001417] backdrop-blur-md flex justify-between items-center z-50 
      
       sm:h-[70px] sm:px-20'>     
 
