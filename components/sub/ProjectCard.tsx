@@ -24,7 +24,7 @@ const ProjectCard = ({ src, title, description, techStack, appLink, gitLink }: P
     whileInView={{opacity:1, x: 0}}
 
     className='flex flex-col'>
-      <div className='relative h-[16rem] w-[24rem] overflow-hidden rounded-2xl border-l-4 border-b-4 border-gray-500
+      <div className='relative h-[16rem] w-[24rem] overflow-hidden rounded-2xl border-l-4 border-b-4 border-blue-500
       sm:h-[20rem] sm:w-[28rem] '>
         <div className='relative h-[164px] sm:h-[212px]'>
         <Image 
@@ -36,9 +36,9 @@ const ProjectCard = ({ src, title, description, techStack, appLink, gitLink }: P
         </div>
 
         <div className='p-[2px] px-2 sm:p-1'>
-            <h1 className="text-[16px] text-center font-semibold text-orange-500 leading-[1]
+            <h1 className="text-[16px] text-center font-semibold text-blue-700 leading-[1]
             sm:text-xl sm:leading-tight">{title}</h1>
-            <p className='text-[13px] text-blue-500 leading-none pb-1
+            <p className='text-[13px] text-gray-300 leading-none pb-1
             sm:text-sm sm:leading-[1]'>{description}</p>
             <p className='text-[13px] text-purple-500 leading-none
             sm:text-sm sm:leading-[1]'>{techStack}</p>
