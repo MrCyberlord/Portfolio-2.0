@@ -37,11 +37,11 @@ const ProjectCard = ({ src, title, description, techStack, appLink, gitLink }: P
         </div>
       </div >
       <div className='p-[2px] px-2  w-[25rem] sm:p-1 sm:w-[28rem] sm:h-[6.5rem]'>
-            <h1 className="text-[16px] text-center font-semibold text-blue-700 leading-[1]
+            <h1 className="text-[20px] text-center font-semibold text-blue-700 leading-[1]
             sm:text-xl sm:leading-tight">{title}</h1>
-            <p className='text-[14px] text-blue-300 leading-none pb-1
+            <p className='text-[16px] text-blue-300 leading-none pb-1
             sm:text-[16px] sm:leading-[1]'>{description}</p>
-            <p className='text-[14px] text-blue-500 leading-none
+            <p className='text-[16px] text-blue-500 leading-none
             sm:text-[16px] sm:leading-[1]'>{techStack}</p>
         </div>
       <div className='flex w-full justify-evenly p-1 sm:p-4'>
