@@ -23,10 +23,11 @@ const ProjectCard = ({ src, title, description, techStack, appLink, gitLink }: P
       transition={{duration: 1}}
     whileInView={{opacity:1, x: 0}}
 
-    className='flex flex-col'>
-      <div className='relative h-[16rem] w-[24rem] overflow-hidden rounded-2xl border-l-4 border-b-4 border-blue-500
-      sm:h-[20rem] sm:w-[28rem] '>
-        <div className='relative h-[164px] sm:h-[212px]'>
+    className='flex flex-col items-center'>
+      <div className='relative h-[14rem] w-[24rem] overflow-hidden rounded-2xl border-l-4 border-b-4 border-blue-500
+      sm:h-[16rem] sm:w-[28rem] '>
+        <div >
+        {/* <div className='relative h-[164px] sm:h-[212px]'> */}
         <Image 
             src={src}
             alt={title}
@@ -34,17 +35,16 @@ const ProjectCard = ({ src, title, description, techStack, appLink, gitLink }: P
             className='object-fill'
         />
         </div>
-
-        <div className='p-[2px] px-2 sm:p-1'>
+      </div >
+      <div className='p-[2px] px-2 h-[4.5rem] w-[24rem] sm:p-1 sm:w-[28rem] sm:h-[6.5rem]'>
             <h1 className="text-[16px] text-center font-semibold text-blue-700 leading-[1]
             sm:text-xl sm:leading-tight">{title}</h1>
-            <p className='text-[13px] text-gray-300 leading-none pb-1
-            sm:text-sm sm:leading-[1]'>{description}</p>
-            <p className='text-[13px] text-purple-500 leading-none
-            sm:text-sm sm:leading-[1]'>{techStack}</p>
+            <p className='text-[13px] text-blue-300 leading-none pb-1
+            sm:text-[16px] sm:leading-[1]'>{description}</p>
+            <p className='text-[13px] text-blue-500 leading-none
+            sm:text-[16px] sm:leading-[1]'>{techStack}</p>
         </div>
-      </div >
-      <div className='flex justify-evenly p-5'>
+      <div className='flex w-full justify-evenly p-5'>
       <a href={appLink} target="_blank" rel="noopener noreferrer" className='projectbutton'>App Link</a>
       <a href={gitLink} target="_blank" rel="noopener noreferrer" className='projectbutton'>Git Link</a>
       </div>

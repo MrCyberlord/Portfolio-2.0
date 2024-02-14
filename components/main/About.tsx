@@ -12,7 +12,7 @@ const About = () => {
   return (
      
       <section 
-        className='h-screen w-screen flex flex-col justify-center px-2 pt-14 overflow-hidden
+        className='h-screen w-screen flex flex-col justify-center px-1 pt-14 overflow-hidden
         
         sm:px-36'>
 

@@ -9,7 +9,7 @@ const directionLeft: boolean = true
 const Projects = () => {
   return (
     <div className='h-full flex flex-col pt-24 pb-60 overflow-hidden
-    sm:pt-[145px]'>
+    sm:pt-[120px]'>
       <motion.div 
        initial={{
         x: directionLeft ? -200 : 200,
@@ -24,8 +24,8 @@ const Projects = () => {
       </motion.div>
 
       <motion.div 
-      className='flex flex-row flex-wrap justify-evenly gap-y-20 pt-14
-      sm:pt-[65px]'>
+      className='flex flex-row flex-wrap justify-evenly gap-y-14 pt-6
+      sm:pt-[55px]'>
         <ProjectCard 
           src="/ZEcommerceWebsite.png"
           title="E-Commerce Website"
